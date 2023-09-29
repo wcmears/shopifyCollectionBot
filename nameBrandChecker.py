@@ -10,7 +10,7 @@ import time
 import openai
 import json
 
-openai.api_key = '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'
+openai.api_key = '' #Enter your key as a string
 
 try:
     with open('seenBrands.json', 'r') as f:
